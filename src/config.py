@@ -39,6 +39,11 @@ ELEMENT_TIMEOUT_MS = 20_000
 CAPTCHA_OCR_RETRIES = 3
 CAPTCHA_LENGTH = 6
 
+MONTHS = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
+
+MONTH_NUMBER = {name: i + 1 for i, name in enumerate(MONTHS)}
+
 def ensure_dirs() -> None:
     """Create all data folders if missing."""
     for d in (DATA_DIR, DOWNLOADS_DIR, REPORTS_DIR, LOGS_DIR, SCREENSHOTS_DIR):
