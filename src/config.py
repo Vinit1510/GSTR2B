@@ -22,6 +22,7 @@ LOGS_DIR = ROOT_DIR / "logs"
 SCREENSHOTS_DIR = LOGS_DIR / "screenshots"
 SAMPLE_EXCEL = ROOT_DIR / "sample_clients.xlsx"
 SETTINGS_FILE = DATA_DIR / "settings.json"
+VAULT_FILE = DATA_DIR / "vault.dat"
 
 # GST portal endpoints
 GST_LOGIN_URL = "https://services.gst.gov.in/services/login"
